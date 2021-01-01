@@ -24,6 +24,6 @@ To add verbs, edit `src/verbs.txt` and then re-build the program with `npm run b
 7. For conjugations that apply to all pronouns, include at least one space
    before the conjugation (e.g. '  querido' for particípio).
 
-## Sound sources:
+## Sound sources
 - Correct: https://freesound.org/people/StavSounds/sounds/546082/
 - Incorrect: https://freesound.org/people/Bertrof/sounds/131657/
