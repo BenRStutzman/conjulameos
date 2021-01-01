@@ -1,23 +1,39 @@
 import './App.css';
 import React from 'react';
+import rawFile from './verbs.txt';
 
-const questions = [
-  {
-    question: 'presente ele querer',
-    answer: 'quer'
-  },
-  {
-    question: 'conjuntivo imperfeito ele querer',
-    answer: 'quisesse'
-  },
-  {
-    question: 'presente tu dizer',
-    answer: 'dizes'
-  }
-];
+const problems = [];
+const incorrectAnswerRetryDistance = 5;
+
+fetch(rawFile)
+  .then(result => result.text())
+  .then(text => {
+    let verb;
+    let tenseSets;
+    let tense;
+    let pronouns;
+    let pronounConjugationPairs;
+    let conjugation;
+    const verbSets = text.trim().split(/\n\s*\n\s*\n/).slice(1,)
+    verbSets.forEach(verbSet => {
+      [verb, ...tenseSets] = verbSet.split(/\n\s*\n/);
+      tenseSets.forEach(tenseSet => {
+        [tense, ...pronounConjugationPairs] = tenseSet.split(/\n/);
+        pronounConjugationPairs.forEach(pronounConjugationPair => {
+          [pronouns, conjugation] = pronounConjugationPair.split(/\s+/);
+          pronouns.split('/').forEach(pronoun => {
+            problems.push({
+              question: `${tense} ${pronoun} ${verb}`,
+              answer: conjugation
+            });
+          });
+        });
+      });
+    });
+  });
 
 const InputBox = (props) => (
-  <input id="input" value={props.value} autocomplete="off"
+  <input id="input" value={props.value} autoComplete="off"
     onChange={props.handleChange}
     onKeyPress={props.handleKeyPress}/>
 );
@@ -25,48 +41,73 @@ const InputBox = (props) => (
 class App extends React.Component {
   constructor(props) {
     super(props);
+
     this.state = {
-      currentProblem: this.getRandomProblem(),
+      problemQueue: [],
+      currentProblem: null,
+      hasMissedCurrentProblem: false,
       input: '',
       correctMessage: '',
       correctMessageTimeoutId: null,
+      numberOfProblems: 0,
+      numberCorrect: 0
     };
+
     this.checkAnswer = this.checkAnswer.bind(this);
     this.updateInput = this.updateInput.bind(this);
     this.handleKeyPress = this.handleKeyPress.bind(this);
     this.clearCorrectMessage = this.clearCorrectMessage.bind(this);
+    this.begin = this.begin.bind(this);
   }
 
   getRandomProblem() {
-    return questions[Math.floor(Math.random() * questions.length)];
+    return Object.assign({}, problems[Math.floor(Math.random() * problems.length)]);
+  }
+
+  begin() {
+    let problemQueue = []
+    for (let i = 0; i < incorrectAnswerRetryDistance; i++) {
+      problemQueue.push(this.getRandomProblem());
+    }
+    this.setState((state) => Object.assign({}, state, {
+      problemQueue: problemQueue,
+      currentProblem: this.getRandomProblem()
+    }));
   }
 
   checkAnswer() {
-    console.log(this.state.correctMessageTimeoutId);
     clearTimeout(this.state.correctMessageTimeoutId);
     const correctMessageTimeoutId = setTimeout(this.clearCorrectMessage, 1000)
     const isCorrect = this.state.input === this.state.currentProblem.answer;
-    let correctMessage;
-    switch (isCorrect) {
-      case true:
-        correctMessage = 'Correct!'
-        break;
-      case false:
-        correctMessage = 'Incorrect.'
-        break;
-      default:
-        correctMessage = ''
-        break;
-    }
-    if (isCorrect) {
-      document.querySelector('input').value = '';
-    }
-    this.setState((state) => Object.assign({}, state, {
-      currentProblem: isCorrect ? this.getRandomProblem() : this.state.currentProblem,
-      correctMessage: correctMessage,
-      input: isCorrect ? '' : state.input,
+
+    const newState = Object.assign({}, this.state, {
+      numberOfProblems: this.state.numberOfProblems + 1,
       correctMessageTimeoutId: correctMessageTimeoutId
-    }));
+    });
+
+    let newestState;
+    if (isCorrect) {
+      const [currentProblem, ...problemQueue] = this.state.problemQueue;
+      const queuedQuestion = this.state.hasMissedCurrentProblem ?
+        this.state.currentProblem : this.getRandomProblem();
+      problemQueue.push(queuedQuestion);
+      newestState = {
+        currentProblem: currentProblem,
+        problemQueue: problemQueue,
+        hasMissedCurrentProblem: false,
+        input: '',
+        correctMessage: 'Correct!',
+        numberCorrect: this.state.numberCorrect + 1
+      }
+      document.querySelector('input').value = '';
+    } else {
+      newestState = {
+        hasMissedCurrentProblem: true,
+        correctMessage: 'Incorrect'
+      }
+    }
+    this.setState((state) => Object.assign({}, newState, newestState));
+    console.log(this.state.problemQueue);
   }
 
   clearCorrectMessage() {
@@ -89,13 +130,21 @@ class App extends React.Component {
   }
 
   render() {
+    const heading = this.state.currentProblem ?
+      (<h2>{this.state.currentProblem.question}</h2>)
+      : (<button onClick={this.begin}>Begin</button>);
+    const score = this.state.numberOfProblems ?
+      `${this.state.numberCorrect}/${this.state.numberOfProblems}
+        (${Math.round(this.state.numberCorrect / this.state.numberOfProblems * 100)}%)`
+      : '';
     return (
       <div className="App">
-          <h2>{this.state.currentProblem.question}</h2>
-          <InputBox value={this.props.input}
-            handleChange={(event) => this.updateInput(event)}
-            handleKeyPress={(event) => this.handleKeyPress(event)}/>
-          <h1>{this.state.correctMessage}</h1>
+        {heading}
+        <InputBox value={this.props.input}
+          handleChange={(event) => this.updateInput(event)}
+          handleKeyPress={(event) => this.handleKeyPress(event)}/>
+        <h1>{this.state.correctMessage}</h1>
+        <h2>{score}</h2>
       </div>
     );
   }

@@ -1,0 +1,44 @@
+Instructions:
+
+Welcome to the Conjulameos customizable verb sheet! You can add your own verbs;
+just follow the spacing pattern of the existing verbs.
+1. Separate each verb section (e.g. all the conjugations of 'querer')
+   with two blank lines.
+2. Within each verb section, separate each tense section (e.g. all the
+   conjugations in the present tense) with one blank line.
+3. Within each tense section, put the tense name first (e.g. 'presente') on its
+   own line, and the pronoun/conjugation pairs on the following lines.
+4. Within each pronoun/conjugation pair, separate the pronoun and the
+  conjugation with a space (e.g. 'eu quero').
+5. For conjugations that work for multiple pronouns, separate each pronoun
+   with a forward slash (e.g. 'ele/ela/você quer').
+
+
+querer
+
+presente
+eu quero
+tu queres
+ele/ela/você quer
+nós queremos
+vós quereis
+eles/elas/vocês querem
+
+pretérito
+eu quis
+tu quiseste
+ele/ela/você quis
+nós quisemos
+vós quisestes
+eles/elas/vocês quiseram
+
+
+poder
+
+presente
+eu	posso
+tu	podes
+ele/ela/você	pode
+nós	podemos
+vós	podeis
+eles/elas/vocês	podem
