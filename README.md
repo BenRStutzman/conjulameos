@@ -1,7 +1,14 @@
-Welcome to Conjuglameos - a lame version of [conjuguemos.com](https://www.conjuguemos.com), but customizable with whatever verbs you want!
+# Conjulameos
+Welcome to *ConjuLAMEos* - a lame version of [conjuguemos.com](https://www.conjuguemos.com) for practicing verb cojugations, but customizable with whatever verbs you want!
 
-# Adding verbs
-To add verbs, edit `src/verbs.txt`. Just follow the spacing pattern of the existing verbs, or use these instructions if you want them spelled out:
+## Running the program
+In the command prompt, navigate into the `conjulameos` folder and run `serve -s build`. (You must first have npm and install `serve` with `npm install -g serve` if you haven't already.) You will then be directed to go to an address such as http://localhost:5000 in a browser.
+
+## Playing the game
+Click the "Yalla" button to begin. The game will prompt you with a verb tense (e.g. 'presente'), a pronoun (e.g. 'ela'), and a verb in the infinitive form (e.g. 'quer'). Conjugate the verb according to the pronoun and tense and type your answer in the input box, then press enter to see if you're right. Repeat ad infinitum!
+
+## Adding verbs
+To add verbs, edit `src/verbs.txt` and then re-build the program with `npm run build`. Just follow the spacing pattern of the existing verbs, or use these instructions if you want them spelled out:
 1. Separate each verb section (e.g. all the conjugations of 'querer')
    with two blank lines.
 2. Within each verb section, separate each tense section (e.g. all the
@@ -15,8 +22,8 @@ To add verbs, edit `src/verbs.txt`. Just follow the spacing pattern of the exist
 6. For conjugations with multiple correct answers, separate each conjugation
    with a forward slash (e.g. 'tu diz/dize').
 7. For conjugations that apply to all pronouns, include at least one space
-   before the conjugation (e.g. '  querido' for partípio).
+   before the conjugation (e.g. '  querido' for particípio).
 
-# Sound sources:
+## Sound sources:
 Correct: https://freesound.org/people/StavSounds/sounds/546082/
 Incorrect: https://freesound.org/people/Bertrof/sounds/131657/

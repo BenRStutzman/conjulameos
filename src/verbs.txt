@@ -1018,7 +1018,8 @@ particípio
 gerúndio
   saindo
 
-presenteeu	saio
+presente
+eu	saio
 tu	sais
 ele/ela/você sai
 nós	saímos
