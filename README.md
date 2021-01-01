@@ -2,7 +2,7 @@
 Welcome to *ConjuLAMEos* - a lame version of [conjuguemos.com](https://www.conjuguemos.com/verb/homework/100) for practicing verb conjugations, but customizable with whatever verbs you want!
 
 ## Running the program
-In the command prompt, navigate into the `conjulameos` folder and run `serve -s build`. (You must first have npm and install `serve` with `npm install -g serve` if you haven't already.) You will then be directed to go to an address such as http://localhost:5000 in a browser.
+In the command prompt, navigate into the `conjulameos` folder. To run the program in development, run `npm start`. To build the program in production, run `npm run build` and then `npm serve -s build` to run it. (You must first have npm and install `serve` with `npm install -g serve` if you haven't already.) You will then be directed to go to an address such as http://localhost:5000 in a browser.
 
 ## Playing the game
 Click the "Yalla" button to begin. The game will prompt you with a verb tense (e.g. 'presente'), a pronoun (e.g. 'ela'), and a verb in the infinitive form (e.g. 'quer'). Conjugate the verb according to the pronoun and tense and type your answer in the input box, then press enter to see if you're right. Repeat ad infinitum!
