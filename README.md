@@ -12,7 +12,7 @@ To add verbs, edit `src/verbs.txt` and then re-build the program with `npm run b
 1. Separate each verb section (e.g. all the conjugations of 'querer')
    with two blank lines.
 2. Within each verb section, separate each tense section (e.g. all the
-   conjugations in the presentetense) with one blank line.
+   conjugations in the present tense) with one blank line.
 3. Within each tense section, put the tense name first (e.g. 'presente') on its
    own line, and the pronoun/conjugation pairs on the following lines.
 4. Within each pronoun/conjugation pair, separate the pronoun and the
