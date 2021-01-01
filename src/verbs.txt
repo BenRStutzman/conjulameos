@@ -9,7 +9,7 @@ just follow the spacing pattern of the existing verbs.
 3. Within each tense section, put the tense name first (e.g. 'presente') on its
    own line, and the pronoun/conjugation pairs on the following lines.
 4. Within each pronoun/conjugation pair, separate the pronoun and the
-  conjugation with a space (e.g. 'eu quero').
+   conjugation with a space (e.g. 'eu quero').
 5. For conjugations that work for multiple pronouns, separate each pronoun
    with a forward slash (e.g. 'ele/ela/você quer').
 
@@ -17,20 +17,83 @@ just follow the spacing pattern of the existing verbs.
 querer
 
 presente
-eu quero
-tu queres
-ele/ela/você quer
-nós queremos
-vós quereis
-eles/elas/vocês querem
+eu	quero
+tu	queres
+ele	quer
+nós	queremos
+vós	quereis
+eles	querem
+
+imperfeito
+eu	queria
+tu	querias
+ele	queria
+nós	queríamos
+vós	queríeis
+eles	queriam
+
+futuro
+eu	quererei
+tu	quererás
+ele	quererá
+nós	quereremos
+vós	querereis
+eles	quererão
 
 pretérito
-eu quis
-tu quiseste
-ele/ela/você quis
-nós quisemos
-vós quisestes
-eles/elas/vocês quiseram
+eu	quis
+tu	quiseste
+ele	quis
+nós	quisemos
+vós	quisestes
+eles	quiseram
+
+presente do subjuntivo
+eu	queira
+tu	queiras
+ele	queira
+nós	queiramos
+vós	queirais
+eles	queiram
+
+imperfeito do subjuntivo
+eu	quisesse
+tu	quisesses
+ele	quisesse
+nós	quiséssemos
+vós	quisésseis
+eles	quisessem
+
+futuro do subjuntivo
+eu	quiser
+tu	quiseres
+ele	quiser
+nós	quisermos
+vós	quiserdes
+eles	quiserem
+
+condicional
+eu	quereria
+tu	quererias
+ele	quereria
+nós	quereríamos
+vós	quereríeis
+eles	quereriam
+
+imperativo
+tu	quer
+ele	queira
+nós	queiramos
+vós	querei
+eles	queiram
+
+infinitivo pessoal
+eu querer
+tu quereres
+ele/ela/você querer
+nós querermos
+vós quererdes
+eles quererem
 
 
 poder
@@ -38,7 +101,78 @@ poder
 presente
 eu	posso
 tu	podes
-ele/ela/você	pode
+ele	pode
 nós	podemos
 vós	podeis
-eles/elas/vocês	podem
+eles	podem
+
+imperfeito
+eu	podia
+tu	podias
+ele	podia
+nós	podíamos
+vós	podíeis
+eles	podiam
+
+futuro
+eu	poderei
+tu	poderás
+ele	poderá
+nós	poderemos
+vós	podereis
+eles	poderão
+
+pretérito
+eu	pude
+tu	pudeste
+ele	pôde
+nós	pudemos
+vós	pudestes
+eles	puderam
+
+presente do subjuntivo
+eu	possa
+tu	possas
+ele	possa
+nós	possamos
+vós	possais
+eles	possam
+
+imperfeito do subjuntivo
+eu	pudesse
+tu	pudesses
+ele	pudesse
+nós	pudéssemos
+vós	pudésseis
+eles	pudessem
+
+futuro do subjuntivo
+eu	puder
+tu	puderes
+ele	puder
+nós	pudermos
+vós	puderdes
+eles	puderem
+
+condicional
+eu	poderia
+tu	poderias
+ele	poderia
+nós	poderíamos
+vós	poderíeis
+eles	poderiam
+
+imperativo
+tu	pode
+ele	possa
+nós	possamos
+vós	podei
+eles	possam
+
+infinitivo pessoal
+eu poder
+tu poderes
+ele poder
+nós podermos
+vós poderdes
+eles poderem

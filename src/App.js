@@ -1,9 +1,15 @@
-import './App.css';
 import React from 'react';
 import rawFile from './verbs.txt';
+import correctSoundFile from './sounds/correct.wav';
+import incorrectSoundFile from './sounds/incorrect.wav';
+
+const correctSound = new Audio(correctSoundFile);
+const incorrectSound = new Audio(incorrectSoundFile);
 
 const problems = [];
 const incorrectAnswerRetryDistance = 5;
+const correctMessageCorrect = "Correct!";
+const correctMessageIncorrect = "Incorrect.";
 
 fetch(rawFile)
   .then(result => result.text())
@@ -23,7 +29,11 @@ fetch(rawFile)
           [pronouns, conjugation] = pronounConjugationPair.split(/\s+/);
           pronouns.split('/').forEach(pronoun => {
             problems.push({
-              question: `${tense} ${pronoun} ${verb}`,
+              question: {
+                tense: tense,
+                pronoun: pronoun,
+                verb: verb
+              },
               answer: conjugation
             });
           });
@@ -33,7 +43,7 @@ fetch(rawFile)
   });
 
 const InputBox = (props) => (
-  <input id="input" value={props.value} autoComplete="off"
+  <input id="input" value={props.value} autoComplete="off" autoFocus
     onChange={props.handleChange}
     onKeyPress={props.handleKeyPress}/>
 );
@@ -87,6 +97,7 @@ class App extends React.Component {
 
     let newestState;
     if (isCorrect) {
+      correctSound.play();
       const [currentProblem, ...problemQueue] = this.state.problemQueue;
       const queuedQuestion = this.state.hasMissedCurrentProblem ?
         this.state.currentProblem : this.getRandomProblem();
@@ -96,18 +107,18 @@ class App extends React.Component {
         problemQueue: problemQueue,
         hasMissedCurrentProblem: false,
         input: '',
-        correctMessage: 'Correct!',
+        correctMessage: correctMessageCorrect,
         numberCorrect: this.state.numberCorrect + 1
       }
       document.querySelector('input').value = '';
     } else {
+      incorrectSound.play();
       newestState = {
         hasMissedCurrentProblem: true,
-        correctMessage: 'Incorrect'
+        correctMessage: correctMessageIncorrect
       }
     }
     this.setState((state) => Object.assign({}, newState, newestState));
-    console.log(this.state.problemQueue);
   }
 
   clearCorrectMessage() {
@@ -130,21 +141,38 @@ class App extends React.Component {
   }
 
   render() {
-    const heading = this.state.currentProblem ?
-      (<h2>{this.state.currentProblem.question}</h2>)
-      : (<button onClick={this.begin}>Begin</button>);
-    const score = this.state.numberOfProblems ?
-      `${this.state.numberCorrect}/${this.state.numberOfProblems}
-        (${Math.round(this.state.numberCorrect / this.state.numberOfProblems * 100)}%)`
-      : '';
-    return (
-      <div className="App">
-        {heading}
-        <InputBox value={this.props.input}
-          handleChange={(event) => this.updateInput(event)}
-          handleKeyPress={(event) => this.handleKeyPress(event)}/>
-        <h1>{this.state.correctMessage}</h1>
-        <h2>{score}</h2>
+    let content;
+    if (this.state.currentProblem) {
+      const correctMessageId = this.state.correctMessage === correctMessageCorrect ?
+        "correct" : "incorrect";
+      const accuracy = Math.round(this.state.numberCorrect / this.state.numberOfProblems * 100);
+      const score = this.state.numberOfProblems ?
+        `${this.state.numberCorrect}/${this.state.numberOfProblems} (${accuracy}%)` : '';
+      const question = this.state.currentProblem.question;
+      content = (
+        <div id="container">
+          <div id="heading">
+            <h2><span className="light-font">{question.tense} {question.pronoun} </span>
+              <span className="extra-bold-font">{question.verb}</span></h2>
+          </div>
+          <InputBox value={this.props.input}
+            handleChange={(event) => this.updateInput(event)}
+            handleKeyPress={(event) => this.handleKeyPress(event)}/>
+          <h2 className="correct-message" id={correctMessageId}>{this.state.correctMessage}</h2>
+          <h2>{score}</h2>
+        </div>
+      );
+    } else {
+      content = (
+        <div>
+          <button id="begin" onClick={this.begin} autoFocus>Yalla!</button>
+        </div>
+      );
+    }
+    return(
+      <div>
+        <h1 id="conjulameos">Conjulameos</h1>
+        {content}
       </div>
     );
   }
