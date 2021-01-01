@@ -6,10 +6,11 @@ import incorrectSoundFile from './sounds/incorrect.wav';
 const correctSound = new Audio(correctSoundFile);
 const incorrectSound = new Audio(incorrectSoundFile);
 
+const incorrectAnswerRetryInterval = 5;
+const correctMessageDisplayTimeSeconds = 2;
+const correctMessagesCorrect = ["Correto!", "Ótimo!", "Fixe!"];
+const correctMessagesIncorrect = ["Incorrecto.", "Não.", "Opa."];
 const problems = [];
-const incorrectAnswerRetryDistance = 5;
-const correctMessageCorrect = "Correct!";
-const correctMessageIncorrect = "Incorrect.";
 
 fetch(rawFile)
   .then(result => result.text())
@@ -19,14 +20,14 @@ fetch(rawFile)
     let tense;
     let pronouns;
     let pronounConjugationPairs;
-    let conjugation;
-    const verbSets = text.trim().split(/\n\s*\n\s*\n/).slice(1,)
+    let conjugations;
+    const verbSets = text.trim().split(/\n\s*\n\s*\n/);
     verbSets.forEach(verbSet => {
       [verb, ...tenseSets] = verbSet.split(/\n\s*\n/);
       tenseSets.forEach(tenseSet => {
         [tense, ...pronounConjugationPairs] = tenseSet.split(/\n/);
         pronounConjugationPairs.forEach(pronounConjugationPair => {
-          [pronouns, conjugation] = pronounConjugationPair.split(/\s+/);
+          [pronouns, conjugations] = pronounConjugationPair.split(/\s+/);
           pronouns.split('/').forEach(pronoun => {
             problems.push({
               question: {
@@ -34,7 +35,7 @@ fetch(rawFile)
                 pronoun: pronoun,
                 verb: verb
               },
-              answer: conjugation
+              answers: conjugations.split('/')
             });
           });
         });
@@ -55,9 +56,12 @@ class App extends React.Component {
     this.state = {
       problemQueue: [],
       currentProblem: null,
-      hasMissedCurrentProblem: false,
+      mistakesOnCurrentProblem: 0,
       input: '',
-      correctMessage: '',
+      correctMessage: {
+        isCorrect: false,
+        message: '',
+      },
       correctMessageTimeoutId: null,
       numberOfProblems: 0,
       numberCorrect: 0
@@ -74,9 +78,17 @@ class App extends React.Component {
     return Object.assign({}, problems[Math.floor(Math.random() * problems.length)]);
   }
 
+  getRandomCorrectMessage(isCorrect) {
+    const messages = isCorrect ? correctMessagesCorrect : correctMessagesIncorrect;
+    return {
+      isCorrect: isCorrect,
+      message: messages[Math.floor(Math.random() * messages.length)]
+    };
+  }
+
   begin() {
     let problemQueue = []
-    for (let i = 0; i < incorrectAnswerRetryDistance; i++) {
+    for (let i = 0; i < incorrectAnswerRetryInterval; i++) {
       problemQueue.push(this.getRandomProblem());
     }
     this.setState((state) => Object.assign({}, state, {
@@ -86,9 +98,13 @@ class App extends React.Component {
   }
 
   checkAnswer() {
+    if (this.state.input === '') {
+      return;
+    }
     clearTimeout(this.state.correctMessageTimeoutId);
-    const correctMessageTimeoutId = setTimeout(this.clearCorrectMessage, 1000)
-    const isCorrect = this.state.input === this.state.currentProblem.answer;
+    const correctMessageTimeoutId = setTimeout(this.clearCorrectMessage,
+      1000 * correctMessageDisplayTimeSeconds)
+    const isCorrect = this.state.currentProblem.answers.includes(this.state.input);
 
     const newState = Object.assign({}, this.state, {
       numberOfProblems: this.state.numberOfProblems + 1,
@@ -99,23 +115,27 @@ class App extends React.Component {
     if (isCorrect) {
       correctSound.play();
       const [currentProblem, ...problemQueue] = this.state.problemQueue;
-      const queuedQuestion = this.state.hasMissedCurrentProblem ?
+      const queuedQuestion = this.state.mistakesOnCurrentProblem ?
         this.state.currentProblem : this.getRandomProblem();
       problemQueue.push(queuedQuestion);
       newestState = {
         currentProblem: currentProblem,
         problemQueue: problemQueue,
-        hasMissedCurrentProblem: false,
+        mistakesOnCurrentProblem: false,
         input: '',
-        correctMessage: correctMessageCorrect,
+        correctMessage: this.getRandomCorrectMessage(true),
         numberCorrect: this.state.numberCorrect + 1
       }
       document.querySelector('input').value = '';
     } else {
       incorrectSound.play();
+      const correctMessage = this.state.mistakesOnCurrentProblem >= 2 ? {
+        isCorrect: false,
+        message: `(tente ${this.state.currentProblem.answers.map(answer => `"${answer}"`).join(' ou ')})`
+      } : this.getRandomCorrectMessage(false);
       newestState = {
-        hasMissedCurrentProblem: true,
-        correctMessage: correctMessageIncorrect
+        mistakesOnCurrentProblem: this.state.mistakesOnCurrentProblem + 1,
+        correctMessage: correctMessage
       }
     }
     this.setState((state) => Object.assign({}, newState, newestState));
@@ -143,7 +163,7 @@ class App extends React.Component {
   render() {
     let content;
     if (this.state.currentProblem) {
-      const correctMessageId = this.state.correctMessage === correctMessageCorrect ?
+      const correctMessageId = this.state.correctMessage.isCorrect ?
         "correct" : "incorrect";
       const accuracy = Math.round(this.state.numberCorrect / this.state.numberOfProblems * 100);
       const score = this.state.numberOfProblems ?
@@ -151,21 +171,20 @@ class App extends React.Component {
       const question = this.state.currentProblem.question;
       content = (
         <div id="container">
-          <div id="heading">
-            <h2><span className="light-font">{question.tense} {question.pronoun} </span>
-              <span className="extra-bold-font">{question.verb}</span></h2>
-          </div>
+          <h2><span className="light-font">{question.tense} {question.pronoun} </span>
+            <span className="extra-bold-font">{question.verb}</span></h2>
           <InputBox value={this.props.input}
             handleChange={(event) => this.updateInput(event)}
             handleKeyPress={(event) => this.handleKeyPress(event)}/>
-          <h2 className="correct-message" id={correctMessageId}>{this.state.correctMessage}</h2>
+          <h2 className="correct-message" id={correctMessageId}>
+            {this.state.correctMessage.message}</h2>
           <h2>{score}</h2>
         </div>
       );
     } else {
       content = (
         <div>
-          <button id="begin" onClick={this.begin} autoFocus>Yalla!</button>
+          <button id="begin-button" onClick={this.begin} autoFocus>Yalla!</button>
         </div>
       );
     }

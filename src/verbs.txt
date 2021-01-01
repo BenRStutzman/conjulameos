@@ -1,91 +1,85 @@
-Instructions:
-
-Welcome to the Conjulameos customizable verb sheet! You can add your own verbs;
-just follow the spacing pattern of the existing verbs.
-1. Separate each verb section (e.g. all the conjugations of 'querer')
-   with two blank lines.
-2. Within each verb section, separate each tense section (e.g. all the
-   conjugations in the present tense) with one blank line.
-3. Within each tense section, put the tense name first (e.g. 'presente') on its
-   own line, and the pronoun/conjugation pairs on the following lines.
-4. Within each pronoun/conjugation pair, separate the pronoun and the
-   conjugation with a space (e.g. 'eu quero').
-5. For conjugations that work for multiple pronouns, separate each pronoun
-   with a forward slash (e.g. 'ele/ela/você quer').
-
-
 querer
+
+particípio
+  querido
+
+gerúndio
+  querendo
 
 presente
 eu	quero
 tu	queres
-ele	quer
-nós	queremos
+ele/ela/você quer
+nós	queremoss
 vós	quereis
-eles	querem
+eles/elas/vocês querem
 
 imperfeito
 eu	queria
 tu	querias
-ele	queria
+ele/ela/você queria
 nós	queríamos
 vós	queríeis
-eles	queriam
+eles/elas/vocês queriam
 
 futuro
 eu	quererei
 tu	quererás
-ele	quererá
+ele/ela/você quererá
 nós	quereremos
 vós	querereis
-eles	quererão
+eles/elas/vocês quererão
 
 pretérito
 eu	quis
 tu	quiseste
-ele	quis
+ele/ela/você quis
 nós	quisemos
 vós	quisestes
-eles	quiseram
+eles/elas/vocês quiseram
 
 presente do subjuntivo
 eu	queira
 tu	queiras
-ele	queira
+ele/ela/você queira
 nós	queiramos
 vós	queirais
-eles	queiram
+eles/elas/vocês queiram
 
 imperfeito do subjuntivo
 eu	quisesse
 tu	quisesses
-ele	quisesse
+ele/ela/você quisesse
 nós	quiséssemos
 vós	quisésseis
-eles	quisessem
+eles/elas/vocês quisessem
 
 futuro do subjuntivo
 eu	quiser
 tu	quiseres
-ele	quiser
+ele/ela/você quiser
 nós	quisermos
 vós	quiserdes
-eles	quiserem
+eles/elas/vocês quiserem
 
 condicional
 eu	quereria
 tu	quererias
-ele	quereria
+ele/ela/você quereria
 nós	quereríamos
 vós	quereríeis
-eles	quereriam
+eles/elas/vocês quereriam
 
 imperativo
 tu	quer
-ele	queira
+ele/ela/você queira
 nós	queiramos
 vós	querei
-eles	queiram
+eles/elas/vocês queiram
+
+imperativo negativo
+tu queiras
+vós queirais
 
 infinitivo pessoal
 eu querer
@@ -93,86 +87,1382 @@ tu quereres
 ele/ela/você querer
 nós querermos
 vós quererdes
-eles quererem
+eles/elas/vocês quererem
 
 
 poder
 
+particípio
+  podido
+
+gerúndio
+  podendo
+
 presente
 eu	posso
 tu	podes
-ele	pode
+ele/ela/você pode
 nós	podemos
 vós	podeis
-eles	podem
+eles/elas/vocês podem
 
 imperfeito
 eu	podia
 tu	podias
-ele	podia
+ele/ela/você podia
 nós	podíamos
 vós	podíeis
-eles	podiam
+eles/elas/vocês podiam
 
 futuro
 eu	poderei
 tu	poderás
-ele	poderá
+ele/ela/você poderá
 nós	poderemos
 vós	podereis
-eles	poderão
+eles/elas/vocês poderão
 
 pretérito
 eu	pude
 tu	pudeste
-ele	pôde
+ele/ela/você pôde
 nós	pudemos
 vós	pudestes
-eles	puderam
+eles/elas/vocês puderam
 
 presente do subjuntivo
 eu	possa
 tu	possas
-ele	possa
+ele/ela/você possa
 nós	possamos
 vós	possais
-eles	possam
+eles/elas/vocês possam
 
 imperfeito do subjuntivo
 eu	pudesse
 tu	pudesses
-ele	pudesse
+ele/ela/você pudesse
 nós	pudéssemos
 vós	pudésseis
-eles	pudessem
+eles/elas/vocês pudessem
 
 futuro do subjuntivo
 eu	puder
 tu	puderes
-ele	puder
+ele/ela/você puder
 nós	pudermos
 vós	puderdes
-eles	puderem
+eles/elas/vocês puderem
 
 condicional
 eu	poderia
 tu	poderias
-ele	poderia
+ele/ela/você poderia
 nós	poderíamos
 vós	poderíeis
-eles	poderiam
+eles/elas/vocês poderiam
 
 imperativo
 tu	pode
-ele	possa
+ele/ela/você possa
 nós	possamos
 vós	podei
-eles	possam
+eles/elas/vocês possam
+
+imperativo negativo
+tu possas
+vós possais
 
 infinitivo pessoal
 eu poder
 tu poderes
-ele poder
+ele/ela/você poder
 nós podermos
 vós poderdes
-eles poderem
+eles/elas/vocês poderem
+
+
+ser
+
+particípio
+  sido
+
+gerúndio
+  sendo
+
+presente
+eu	sou
+tu	és
+ele/ela/você é
+nós	somos
+vós	sois
+eles/elas/vocês são
+
+imperfeito
+eu	era
+tu	eras
+ele/ela/você era
+nós	éramos
+vós	éreis
+eles/elas/vocês eram
+
+futuro
+eu	serei
+tu	serás
+ele/ela/você será
+nós	seremos
+vós	sereis
+eles/elas/vocês serão
+
+pretérito
+eu	fui
+tu	foste
+ele/ela/você foi
+nós	fomos
+vós	fostes
+eles/elas/vocês foram
+
+presente do subjuntivo
+eu	seja
+tu	sejas
+ele/ela/você seja
+nós	sejamos
+vós	sejais
+eles/elas/vocês sejam
+
+imperfeito do subjuntivo
+eu	fosse
+tu	fosses
+ele/ela/você fosse
+nós	fôssemos
+vós	fôsseis
+eles/elas/vocês fossem
+
+futuro do subjuntivo
+eu	for
+tu	fores
+ele/ela/você for
+nós	formos
+vós	fordes
+eles/elas/vocês forem
+
+condicional
+eu	seria
+tu	serias
+ele/ela/você seria
+nós	seríamos
+vós	seríeis
+eles/elas/vocês seriam
+
+imperativo
+tu	sê
+ele/ela/você seja
+nós	sejamos
+vós sede
+eles/elas/vocês sejam
+
+imperativo negativo
+tu sejas
+vós sejais
+
+infinito pessoal
+ser
+seres
+ser
+sermos
+serdes
+serem
+
+
+estar
+
+particípio
+  estado
+
+gerúndio
+  estando
+
+presente
+eu	estou
+tu	estás
+ele/ela/você está
+nós	estamos
+vós	estais
+eles/elas/vocês estão
+
+imperfeito
+eu	estava
+tu	estavas
+ele/ela/você estava
+nós	estávamos
+vós	estáveis
+eles/elas/vocês estavam
+
+futuro
+eu	estarei
+tu	estarás
+ele/ela/você estará
+nós	estaremos
+vós	estareis
+eles/elas/vocês estarão
+
+pretérito
+eu	estive
+tu	estiveste
+ele/ela/você esteve
+nós	estivemos
+vós	estivestes
+eles/elas/vocês estiveram
+
+presentedo subjuntivo
+eu	esteja
+tu	estejas
+ele/ela/você esteja
+nós	estejamos
+vós	estejais
+eles/elas/vocês estejam
+
+imperfeito do subjuntivo
+eu	estivesse
+tu	estivesses
+ele/ela/você estivesse
+nós	estivéssemos
+vós	estivésseis
+eles/elas/vocês estivessem
+
+futuro do subjuntivo
+eu	estiver
+tu	estiveres
+ele/ela/você estiver
+nós	estivermos
+vós	estiverdes
+eles/elas/vocês estiverem
+
+condicional
+eu	estaria
+tu	estarias
+ele/ela/você estaria
+nós	estaríamos
+vós	estaríeis
+eles/elas/vocês estariam
+
+imperativo
+tu	está
+ele/ela/você esteja
+nós	estejamos
+vós	estai
+eles/elas/vocês estejam
+
+imperativo negativo
+tu estejas
+vós estejais
+
+infinitivo pessoal
+eu estar
+tu estares
+ele/ela/você estar
+nós estarmos
+vós estardes
+eles/elas/vocês estarem
+
+
+ter
+
+particípio
+  tido
+
+gerúndio
+  tendo
+
+presente
+eu	tenho
+tu	tens
+ele/ela/você tem
+nós	temos
+vós	tendes
+eles/elas/vocês têm
+
+imperfeito
+eu	tinha
+tu	tinhas
+ele/ela/você tinha
+nós	tínhamos
+vós	tínheis
+eles/elas/vocês tinham
+
+futuro
+eu	terei
+tu	terás
+ele/ela/você terá
+nós	teremos
+vós	tereis
+eles/elas/vocês terão
+
+pretérito
+eu	tive
+tu	tiveste
+ele/ela/você teve
+nós	tivemos
+vós	tivestes
+eles/elas/vocês tiveram
+
+presente do subjuntivo
+eu	tenha
+tu	tenhas
+ele/ela/você tenha
+nós	tenhamos
+vós	tenhais
+eles/elas/vocês tenham
+
+imperfeito do subjuntivo
+eu	tivesse
+tu	tivesses
+ele/ela/você tivesse
+nós	tivéssemos
+vós	tivésseis
+eles/elas/vocês tivessem
+
+futuro do subjuntivo
+eu	tiver
+tu	tiveres
+ele/ela/você tiver
+nós	tivermos
+vós	tiverdes
+eles/elas/vocês tiverem
+
+condicional
+eu	teria
+tu	terias
+ele/ela/você teria
+nós	teríamos
+vós	teríeis
+eles/elas/vocês teriam
+
+imperativo
+tu	tem
+ele/ela/você tenha
+nós	tenhamos
+vós	tende
+eles/elas/vocês tenham
+
+imperativo negativo
+tu tenhas
+vós tenhais
+
+infinitivo pessoal
+eu ter
+tu teres
+ele/ela/você ter
+nós termos
+vós terdes
+eles/elas/vocês terem
+
+
+pôr
+
+particípio
+  posto
+
+gerúndio
+  pondo
+
+presente
+eu	ponho
+tu	pões
+ele/ela/você põe
+nós	pomos
+vós	pondes
+eles/elas/vocês põem
+
+imperfeito
+eu	punha
+tu	punhas
+ele/ela/você punha
+nós	púnhamos
+vós	púnheis
+eles/elas/vocês punham
+
+futuro
+eu	porei
+tu	porás
+ele/ela/você porá
+nós	poremos
+vós	poreis
+eles/elas/vocês porão
+
+pretérito
+eu	pus
+tu	puseste
+ele/ela/você pôs
+nós	pusemos
+vós	pusestes
+eles/elas/vocês puseram
+
+presente do subjuntivo
+eu	ponha
+tu	ponhas
+ele/ela/você ponha
+nós	ponhamos
+vós	ponhais
+eles/elas/vocês ponham
+
+imperfeito do subjuntivo
+eu	pusesse
+tu	pusesses
+ele/ela/você pusesse
+nós	puséssemos
+vós	pusésseis
+eles/elas/vocês pusessem
+
+futuro do subjuntivo
+eu	puser
+tu	puseres
+ele/ela/você puser
+nós	pusermos
+vós	puserdes
+eles/elas/vocês puserem
+
+condicional
+eu	poria
+tu	porias
+ele/ela/você poria
+nós	poríamos
+vós	poríeis
+eles/elas/vocês poriam
+
+imperativo
+tu	põe
+ele/ela/você ponha
+nós	ponhamos
+vós	ponde
+eles/elas/vocês ponham
+
+imperativo negativo
+tu ponhas
+vós ponhais
+
+infinitivo pessoal
+eu pôr
+tu pores
+ele/ela/você pôr
+nós pormos
+vós pordes
+eles/elas/vocês porem
+
+
+dizer
+
+particípio
+  dito
+
+gerúndio
+  dizendo
+
+presente
+eu	digo
+tu	dizes
+ele/ela/você diz
+nós	dizemos
+vós	dizeis
+eles/elas/vocês dizem
+
+imperfeito
+eu	dizia
+tu	dizias
+ele/ela/você dizia
+nós	dizíamos
+vós	dizíeis
+eles/elas/vocês diziam
+
+futuro
+eu	direi
+tu	dirás
+ele/ela/você dirá
+nós	diremos
+vós	direis
+eles/elas/vocês dirão
+
+pretérito
+eu	disse
+tu	disseste
+ele/ela/você disse
+nós	dissemos
+vós	dissestes
+eles/elas/vocês disseram
+
+presente do subjuntivo
+eu	diga
+tu	digas
+ele/ela/você diga
+nós	digamos
+vós	digais
+eles/elas/vocês digam
+
+imperfeito do subjuntivo
+eu	dissesse
+tu	dissesses
+ele/ela/você dissesse
+nós	disséssemos
+vós	dissésseis
+eles/elas/vocês dissessem
+
+futuro do subjuntivo
+eu	disser
+tu	disseres
+ele/ela/você disser
+nós	dissermos
+vós	disserdes
+eles/elas/vocês disserem
+
+condicional
+eu	diria
+tu	dirias
+ele/ela/você diria
+nós	diríamos
+vós	diríeis
+eles/elas/vocês diriam
+
+imperativo
+tu	diz/dize
+ele/ela/você diga
+nós	digamos
+vós	dizei
+eles/elas/vocês digam
+
+imperativo negativo
+tu digas
+vós digais
+
+infinitivo pessoal
+eu dizer
+tu dizeres
+ele/ela/você dizer
+nós dizermos
+vós dizerdes
+eles/elas/vocês dizerem
+
+
+ler
+
+particípio
+  lido
+
+gerúndio
+  lendo
+
+presente
+eu	leio
+tu	lês
+ele/ela/você lê
+nós	lemos
+vós	ledes
+eles/elas/vocês lêem
+
+imperfeito
+eu	lia
+tu	lias
+ele/ela/você lia
+nós	líamos
+vós	líeis
+eles/elas/vocês liam
+
+futuro
+eu	lerei
+tu	lerás
+ele/ela/você lerá
+nós	leremos
+vós	lereis
+eles/elas/vocês lerão
+
+pretérito
+eu	li
+tu	leste
+ele/ela/você leu
+nós	lemos
+vós	lestes
+eles/elas/vocês leram
+
+presentedo subjuntivo
+eu	leia
+tu	leias
+ele/ela/você leia
+nós	leiamos
+vós	leiais
+eles/elas/vocês leiam
+
+imperfeito do subjuntivo
+eu	lesse
+tu	lesses
+ele/ela/você lesse
+nós	lêssemos
+vós	lêsseis
+eles/elas/vocês lessem
+
+futuro do subjuntivo
+eu	ler
+tu	leres
+ele/ela/você ler
+nós	lermos
+vós	lerdes
+eles/elas/vocês lerem
+
+condicional
+eu	leria
+tu	lerias
+ele/ela/você leria
+nós	leríamos
+vós	leríeis
+eles/elas/vocês leriam
+
+imperativo
+tu	lê
+ele/ela/você leia
+nós	leiamos
+vós	lede
+eles/elas/vocês leiam
+
+imperativo negativo
+tu leias
+vós leiais
+
+infinitivo pessoal
+eu ler
+tu leres
+ele/ela/você ler
+nós lermos
+vós lerdes
+eles/elas/vocês lerem
+
+
+dar
+
+particípio
+  dado
+
+gerúndio
+  dando
+
+presente
+eu	dou
+tu	dás
+ele/ela/você dá
+nós	damos
+vós	dais
+eles/elas/vocês dão
+
+imperfeito
+eu	dava
+tu	davas
+ele/ela/você dava
+nós	dávamos
+vós	dáveis
+eles/elas/vocês davam
+
+futuro
+eu	darei
+tu	darás
+ele/ela/você dará
+nós	daremos
+vós	dareis
+eles/elas/vocês darão
+
+pretérito
+eu	dei
+tu	deste
+ele/ela/você deu
+nós	demos
+vós	destes
+eles/elas/vocês deram
+
+presente do subjuntivo
+eu	dê
+tu	dês
+ele/ela/você dê
+nós	dêmos/demos
+vós	deis
+eles/elas/vocês dêem
+
+imperfeito do subjuntivo
+eu	desse
+tu	desses
+ele/ela/você desse
+nós	déssemos
+vós	désseis
+eles/elas/vocês dessem
+
+futuro do subjuntivo
+eu	dar
+tu	dares
+ele/ela/você dar
+nós	darmos
+vós	dardes
+eles/elas/vocês darem
+
+condicional
+eu	daria
+tu	darias
+ele/ela/você daria
+nós	daríamos
+vós	daríeis
+eles/elas/vocês dariam
+
+imperativo
+tu	dá
+ele/ela/você dê
+nós	dêmos/demos
+vós	dai
+eles/elas/vocês dêem
+
+imperativo negativo
+tu dês
+vós deis
+
+infinitivo pessoal
+eu dar
+tu dares
+ele/ela/você dar
+nós darmos
+vós dardes
+eles/elas/vocês darem
+
+
+ver
+
+particípio
+  visto
+
+gerúndio
+  vendo
+
+presente
+eu	vejo
+tu	vês
+ele/ela/você vê
+nós	vemos
+vós	vedes
+eles/elas/vocês vêem
+
+imperfeito
+eu	via
+tu	vias
+ele/ela/você via
+nós	víamos
+vós	víeis
+eles/elas/vocês viam
+
+futuro
+eu	verei
+tu	verás
+ele/ela/você verá
+nós	veremos
+vós	vereis
+eles/elas/vocês verão
+
+pretérito
+eu	vi
+tu	viste
+ele/ela/você viu
+nós	vimos
+vós	vistes
+eles/elas/vocês viram
+
+presente do subjuntivo
+eu	veja
+tu	vejas
+ele/ela/você veja
+nós	vejamos
+vós	vejais
+eles/elas/vocês vejam
+
+imperfeito do subjuntivo
+eu	visse
+tu	visses
+ele/ela/você visse
+nós	víssemos
+vós	vísseis
+eles/elas/vocês vissem
+
+futuro do subjuntivo
+eu	vir
+tu	vires
+ele/ela/você vir
+nós	virmos
+vós	virdes
+eles/elas/vocês virem
+
+condicional
+eu	veria
+tu	verias
+ele/ela/você veria
+nós	veríamos
+vós	veríeis
+eles/elas/vocês veriam
+
+imperativo
+tu	vê
+ele/ela/você veja
+nós	vejamos
+vós	vede
+eles/elas/vocês vejam
+
+imperativo negativo
+tu vejas
+vós vejais
+
+infinitivo pessoal
+eu ver
+tu veres
+ele/ela/você ver
+nós vermos
+vós verdes
+eles/elas/vocês verem
+
+
+vir
+
+particípio
+  vindo
+
+gerúndio
+  vindo
+
+presente
+eu	venho
+tu	vens
+ele/ela/você vem
+nós	vimos
+vós	vindes
+eles/elas/vocês vêm
+
+imperfeito
+eu	vinha
+tu	vinhas
+ele/ela/você vinha
+nós	vínhamos
+vós	vínheis
+eles/elas/vocês vinham
+
+futuro
+eu	virei
+tu	virás
+ele/ela/você virá
+nós	viremos
+vós	vireis
+eles/elas/vocês virão
+
+pretérito
+eu	vim
+tu	vieste
+ele/ela/você veio
+nós	viemos
+vós	viestes
+eles/elas/vocês vieram
+
+presente do subjuntivo
+eu	venha
+tu	venhas
+ele/ela/você venha
+nós	venhamos
+vós	venhais
+eles/elas/vocês venham
+
+imperfeito do subjuntivo
+eu	viesse
+tu	viesses
+ele/ela/você viesse
+nós	viéssemos
+vós	viésseis
+eles/elas/vocês viessem
+
+futuro do subjuntivo
+eu	vier
+tu	vieres
+ele/ela/você vier
+nós	viermos
+vós	vierdes
+eles/elas/vocês vierem
+
+condicional
+eu	viria
+tu	virias
+ele/ela/você viria
+nós	viríamos
+vós	viríeis
+eles/elas/vocês viriam
+
+imperativo
+tu	vem
+ele/ela/você venha
+nós	venhamos
+vós	vinde
+eles/elas/vocês venham
+
+imperativo negativo
+tu venhas
+vós venhais
+
+infinitivo pessoal
+eu vir
+tu vires
+ele/ela/você vir
+nós virmos
+vós virdes
+eles/elas/vocês virem
+
+
+sair
+
+particípio
+  saído
+
+gerúndio
+  saindo
+
+presenteeu	saio
+tu	sais
+ele/ela/você sai
+nós	saímos
+vós	saís
+eles/elas/vocês saem
+
+imperfeito
+eu	saía
+tu	saías
+ele/ela/você saía
+nós	saíamos
+vós	saíeis
+eles/elas/vocês saíam
+
+futuro
+eu	sairei
+tu	sairás
+ele/ela/você sairá
+nós	sairemos
+vós	saireis
+eles/elas/vocês sairão
+
+pretérito
+eu	saí
+tu	saíste
+ele/ela/você saiu
+nós	saímos
+vós	saístes
+eles/elas/vocês saíram
+
+presentedo subjuntivo
+eu	saia
+tu	saias
+ele/ela/você saia
+nós	saiamos
+vós	saiais
+eles/elas/vocês saiam
+
+imperfeito do subjuntivo
+eu	saísse
+tu	saísses
+ele/ela/você saísse
+nós	saíssemos
+vós	saísseis
+eles/elas/vocês saíssem
+
+futuro do subjuntivo
+eu	sair
+tu	saíres
+ele/ela/você sair
+nós	sairmos
+vós	sairdes
+eles/elas/vocês saírem
+
+condicional
+eu	sairia
+tu	sairias
+ele/ela/você sairia
+nós	sairíamos
+vós	sairíeis
+eles/elas/vocês sairiam
+
+imperativo
+tu	sai
+ele/ela/você saia
+nós	saiamos
+vós	saí
+eles/elas/vocês saiam
+
+imperativo negativo
+tu saias
+vós saiais
+
+infinitivo pessoal
+eu sair
+tu saires
+ele/ela/você sair
+nós sairmos
+vós sairdes
+eles/elas/vocês sairem
+
+
+fazer
+
+particípio
+  feito
+
+gerúndio
+  fazendo
+
+presenteeu	faço
+tu	fazes
+ele/ela/você faz
+nós	fazemos
+vós	fazeis
+eles/elas/vocês fazem
+
+imperfeito
+eu	fazia
+tu	fazias
+ele/ela/você fazia
+nós	fazíamos
+vós	fazíeis
+eles/elas/vocês faziam
+
+futuro
+eu	farei
+tu	farás
+ele/ela/você fará
+nós	faremos
+vós	fareis
+eles/elas/vocês farão
+
+pretérito
+eu	fiz
+tu	fizeste
+ele/ela/você fez
+nós	fizemos
+vós	fizestes
+eles/elas/vocês fizeram
+
+presentedo subjuntivo
+eu	faça
+tu	faças
+ele/ela/você faça
+nós	façamos
+vós	façais
+eles/elas/vocês façam
+
+imperfeito do subjuntivo
+eu	fizesse
+tu	fizesses
+ele/ela/você fizesse
+nós	fizéssemos
+vós	fizésseis
+eles/elas/vocês fizessem
+
+futuro do subjuntivo
+eu	fizer
+tu	fizeres
+ele/ela/você fizer
+nós	fizermos
+vós	fizerdes
+eles/elas/vocês fizerem
+
+condicional
+eu	faria
+tu	farias
+ele/ela/você faria
+nós	faríamos
+vós	faríeis
+eles/elas/vocês fariam
+
+imperativo
+tu	faz/faze
+ele/ela/você faça
+nós	façamos
+vós	fazei
+eles/elas/vocês façam
+
+imperativo negativo
+tu faças
+vós façais
+
+infinitivo pessoal
+eu fazer
+tu fazeres
+ele/ela/você fazer
+nós fazermos
+vós fazerdes
+eles/elas/vocês fazerem
+
+
+ir
+
+particípio
+  ido
+
+gerúndio
+  indo
+
+presente
+eu	vou
+tu	vais
+ele/ela/você vai
+nós	vamos/imos
+vós	ides
+eles/elas/vocês vão
+
+imperfeito
+eu	ia
+tu	ias
+ele/ela/você ia
+nós	íamos
+vós	íeis
+eles/elas/vocês iam
+
+futuro
+eu	irei
+tu	irás
+ele/ela/você irá
+nós	iremos
+vós	ireis
+eles/elas/vocês irão
+
+pretérito
+eu	fui
+tu	foste
+ele/ela/você foi
+nós	fomos
+vós	fostes
+eles/elas/vocês foram
+
+presentedo subjuntivo
+eu	vá
+tu	vás
+ele/ela/você vá
+nós	vamos
+vós	vades
+eles/elas/vocês vão
+
+imperfeito do subjuntivo
+eu	fosse
+tu	fosses
+ele/ela/você fosse
+nós	fôssemos
+vós	fôsseis
+eles/elas/vocês fossem
+
+futuro do subjuntivo
+eu	for
+tu	fores
+ele/ela/você for
+nós	formos
+vós	fordes
+eles/elas/vocês forem
+
+condicional
+eu	iria
+tu	irias
+ele/ela/você iria
+nós	iríamos
+vós	iríeis
+eles/elas/vocês iriam
+
+imperativo
+tu	vai
+ele/ela/você vá
+nós	vamos
+vós	ide
+eles/elas/vocês vão
+
+imperativo negativo
+tu vás
+vós vades
+
+infinitivo pessoal
+eu ir
+tu ires
+ele/ela/você ir
+nós irmos
+vós irdes
+eles/elas/vocês irem
+
+
+haver
+
+particípio
+  havido
+
+gerúndio
+  havendo
+
+presente
+eu	hei
+tu	hás
+ele/ela/você há
+nós	hemos/havemos
+vós	heis
+eles/elas/vocês hão
+
+imperfeito
+eu	havia
+tu	havias
+ele/ela/você havia
+nós	havíamos
+vós	havíeis
+eles/elas/vocês haviam
+
+futuro
+eu	haverei
+tu	haverás
+ele/ela/você haverá
+nós	haveremos
+vós	havereis
+eles/elas/vocês haverão
+
+pretérito
+eu	houve
+tu	houveste
+ele/ela/você houve
+nós	houvemos
+vós	houvestes
+eles/elas/vocês houveram
+
+presente do subjuntivo
+eu	haja
+tu	hajas
+ele/ela/você haja
+nós	hajamos
+vós	hajais
+eles/elas/vocês hajam
+
+imperfeito do subjuntivo
+eu	houvesse
+tu	houvesses
+ele/ela/você houvesse
+nós	houvéssemos
+vós	houvésseis
+eles/elas/vocês houvessem
+
+futuro do subjuntivo
+eu	houver
+tu	houveres
+ele/ela/você houver
+nós	houvermos
+vós	houverdes
+eles/elas/vocês houverem
+
+condicional
+eu	haveria
+tu	haverias
+ele/ela/você haveria
+nós	haveríamos
+vós	haveríeis
+eles/elas/vocês haveriam
+
+imperativo
+tu	há
+ele/ela/você haja
+nós	hajamos
+vós	heis
+eles/elas/vocês hajam
+
+imperativo negativo
+tu hajas
+vós hajais
+
+infinitivo pessoal
+eu haver
+tu haveres
+ele/ela/você haver
+nós havermos
+vós haverdes
+eles/elas/vocês haverem
+
+
+saber
+
+particípio
+  sabido
+
+gerúndio
+  sabendo
+
+presente
+eu	sei
+tu	sabes
+ele/ela/você sabe
+nós	sabemos
+vós	sabeis
+eles/elas/vocês sabem
+
+imperfeito
+eu	sabia
+tu	sabias
+ele/ela/você sabia
+nós	sabíamos
+vós	sabíeis
+eles/elas/vocês sabiam
+
+futuro
+eu	saberei
+tu	saberás
+ele/ela/você saberá
+nós	saberemos
+vós	sabereis
+eles/elas/vocês saberão
+
+pretérito
+eu	soube
+tu	soubeste
+ele/ela/você soube
+nós	soubemos
+vós	soubestes
+eles/elas/vocês souberam
+
+presente do subjuntivo
+eu	saiba
+tu	saibas
+ele/ela/você saiba
+nós	saibamos
+vós	saibais
+eles/elas/vocês saibam
+
+imperfeito do subjuntivo
+eu	soubesse
+tu	soubesses
+ele/ela/você soubesse
+nós	soubéssemos
+vós	soubésseis
+eles/elas/vocês soubessem
+
+futuro do subjuntivo
+eu	souber
+tu	souberes
+ele/ela/você souber
+nós	soubermos
+vós	souberdes
+eles/elas/vocês souberem
+
+condicional
+eu	saberia
+tu	saberias
+ele/ela/você saberia
+nós	saberíamos
+vós	saberíeis
+eles/elas/vocês saberiam
+
+imperativo
+tu	sabe
+ele/ela/você saiba
+nós	saibamos
+vós	sabei
+eles/elas/vocês saibam
+
+imperativo negativo
+tu saibas
+vós saibais
+
+infinitivo pessoal
+eu saber
+tu saberes
+ele/ela/você saber
+nós sabermos
+vós saberdes
+eles/elas/vocês saberem
