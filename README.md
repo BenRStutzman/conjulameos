@@ -25,5 +25,5 @@ To add verbs, edit `src/verbs.txt` and then re-build the program with `npm run b
    before the conjugation (e.g. '  querido' for particípio).
 
 ## Sound sources:
-Correct: https://freesound.org/people/StavSounds/sounds/546082/
-Incorrect: https://freesound.org/people/Bertrof/sounds/131657/
+- Correct: https://freesound.org/people/StavSounds/sounds/546082/
+- Incorrect: https://freesound.org/people/Bertrof/sounds/131657/
