@@ -314,7 +314,7 @@ nós	estivemos
 vós	estivestes
 eles/elas/vocês estiveram
 
-presentedo subjuntivo
+presente do subjuntivo
 eu	esteja
 tu	estejas
 ele/ela/você esteja
