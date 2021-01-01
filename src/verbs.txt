@@ -1110,7 +1110,7 @@ particípio
 gerúndio
   fazendo
 
-presenteeu	faço
+presente eu	faço
 tu	fazes
 ele/ela/você faz
 nós	fazemos
