@@ -1,5 +1,5 @@
 # Conjulameos
-Welcome to *ConjuLAMEos* - a lame version of [conjuguemos.com](https://www.conjuguemos.com) for practicing verb cojugations, but customizable with whatever verbs you want!
+Welcome to *ConjuLAMEos* - a lame version of [conjuguemos.com](https://www.conjuguemos.com/verb/homework/100) for practicing verb conjugations, but customizable with whatever verbs you want!
 
 ## Running the program
 In the command prompt, navigate into the `conjulameos` folder and run `serve -s build`. (You must first have npm and install `serve` with `npm install -g serve` if you haven't already.) You will then be directed to go to an address such as http://localhost:5000 in a browser.
