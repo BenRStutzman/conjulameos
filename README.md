@@ -5,7 +5,7 @@ Welcome to *ConjuLAMEos* - a lame version of [conjuguemos.com](https://www.conju
 In the command prompt, navigate into the `conjulameos` folder. To run the program in development, run `npm start`. To build the program in production, run `npm run build` and then `npm serve -s build` to run it. (You must first have npm and install `serve` with `npm install -g serve` if you haven't already.) You will then be directed to go to an address such as http://localhost:5000 in a browser.
 
 ## Playing the game
-Click the "Yalla" button to begin. The game will prompt you with a verb tense (e.g. 'presente'), a pronoun (e.g. 'ela'), and a verb in the infinitive form (e.g. 'quer'). Conjugate the verb according to the pronoun and tense and type your answer in the input box, then press enter to see if you're right. Repeat ad infinitum!
+Click the "Yalla" button to begin. The game will prompt you with a verb tense (e.g. "presente"), a pronoun (e.g. "ela"), and a verb in the infinitive form (e.g. "querer"). Conjugate the verb according to the pronoun and tense and type your answer in the input box, then press enter to see if you're right. Repeat ad infinitum!
 
 ## Adding verbs
 To add verbs, edit `src/verbs.txt` and then re-build the program with `npm run build`. Just follow the spacing pattern of the existing verbs, or use these instructions if you want them spelled out:
