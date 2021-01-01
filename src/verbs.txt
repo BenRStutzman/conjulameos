@@ -265,13 +265,13 @@ imperativo negativo
 tu sejas
 vós sejais
 
-infinito pessoal
-ser
-seres
-ser
-sermos
-serdes
-serem
+infinitivo pessoal
+eu ser
+tu seres
+ele/ela/você ser
+nós sermos
+vós serdes
+eles/elas/vocês serem
 
 
 estar

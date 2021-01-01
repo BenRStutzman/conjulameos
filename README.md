@@ -1,6 +1,8 @@
 # Conjulameos
 Welcome to *ConjuLAMEos* - a lame version of [conjuguemos.com](https://www.conjuguemos.com/verb/homework/100) for practicing verb conjugations, but customizable with whatever verbs you want!
-
+<br>
+![alt text](https://raw.githubusercontent.com/BenRStutzman/conjulameos/master/conjulameos.png)
+<br>
 ## Running the program
 In the command prompt, navigate into the `conjulameos` folder. To run the program in development, run `npm start`. To run the program for production, run `npm run build` and then `npm serve -s build`. (You must first have npm and install `serve` with `npm install -g serve` if you haven't already.) You will then be directed to go to an address such as http://localhost:5000 in a browser.
 

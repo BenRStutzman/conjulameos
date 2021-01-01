@@ -7,7 +7,7 @@ const correctSound = new Audio(correctSoundFile);
 const incorrectSound = new Audio(incorrectSoundFile);
 
 const incorrectAnswerRetryInterval = 5;
-const correctMessageDisplayTimeSeconds = 2;
+const correctMessageDisplayTimeSeconds = 10;
 const correctMessagesCorrect = ["Correto!", "Ótimo!", "Fixe!"];
 const correctMessagesIncorrect = ["Incorrecto.", "Não.", "Opa."];
 const problems = [];
