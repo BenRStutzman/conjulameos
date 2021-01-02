@@ -1,3 +1,9 @@
+Portuguese
+correct: Correto!/Ótimo!/Fixe!
+incorrect: Incorreto./Opa./Não.
+try: Tente
+
+
 querer
 
 particípio
@@ -682,7 +688,7 @@ nós	lemos
 vós	lestes
 eles/elas/vocês leram
 
-presentedo subjuntivo
+presente do subjuntivo
 eu	leia
 tu	leias
 ele/ela/você leia
@@ -1050,7 +1056,8 @@ nós	saímos
 vós	saístes
 eles/elas/vocês saíram
 
-presentedo subjuntivo
+presente
+do subjuntivo
 eu	saia
 tu	saias
 ele/ela/você saia
@@ -1110,7 +1117,8 @@ particípio
 gerúndio
   fazendo
 
-presente eu	faço
+presente
+eu	faço
 tu	fazes
 ele/ela/você faz
 nós	fazemos
@@ -1141,7 +1149,7 @@ nós	fizemos
 vós	fizestes
 eles/elas/vocês fizeram
 
-presentedo subjuntivo
+presente do subjuntivo
 eu	faça
 tu	faças
 ele/ela/você faça
@@ -1233,7 +1241,7 @@ nós	fomos
 vós	fostes
 eles/elas/vocês foram
 
-presentedo subjuntivo
+presente do subjuntivo
 eu	vá
 tu	vás
 ele/ela/você vá
@@ -1467,3 +1475,52 @@ ele/ela/você saber
 nós sabermos
 vós saberdes
 eles/elas/vocês saberem
+
+
+
+
+Spanish
+correct: ¡Correcto!/¡Estupendo!/¡Frio!
+incorrect: Incorrecto./Ups./No.
+try: Prueba
+
+
+querer
+
+participio
+  querido
+
+gerundio
+  queriendo
+
+presente
+yo	quiero
+tú	quieres
+él/ella/usted	quiere
+nosotros	queremos
+vosotros	queréis
+ellos/ellas/ustedes	quieren
+
+
+
+English
+correct: Correct!/Great!/Cool!
+incorrect: Incorrecto./Ups./No.
+try: Try
+
+
+to want
+
+participle
+  wanted
+
+gerund
+  wanting
+
+present
+I	want
+you	want
+he/she/it	wants
+we	want
+you	want
+they	want

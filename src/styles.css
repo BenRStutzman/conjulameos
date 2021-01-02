@@ -60,7 +60,14 @@ h1, h2, h3, h4, h5 {
   left: 3px;
 }
 
-#begin-button {
+#languages {
+  display: flex;
+  gap: 10px 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
   width: fit-content;
   font-size: 30px;
   font-family: Nunito, sans-serif;
@@ -70,9 +77,15 @@ h1, h2, h3, h4, h5 {
   outline: none;
 }
 
-#begin-button:hover {
+button:hover {
   color: white;
   background-color: green;
+}
+
+#restart-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 #input {
