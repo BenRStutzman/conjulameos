@@ -15,16 +15,15 @@ Click the "Yalla" button to begin. The game will prompt you with a verb tense (e
 To add verbs, edit `src/verbs.txt` and then re-build the program with `npm run build`. Just follow the spacing pattern of the existing verbs, or use these instructions if you want them spelled out:
 1. Separate each language section (e.g. all the Portuguese words) with three blank lines.
 2. The first four lines of each language section should contain:
-  a. The name of the language
-  b. The options for messages to display when the player answers correctly.
-  c. The options for messages to display when the player answers incorrectly.
-  d. The word for "try" in that language, to be used when the player answers incorrectly three times in a row and gets prompted with the correct answer
+    a. The name of the language
+    b. The options for messages to display when the player answers correctly.
+    c. The options for messages to display when the player answers incorrectly.
+    d. The word for "try" in that language, to be used when the player answers incorrectly three times in a row and gets prompted with the correct answer
 For example, the first four lines of the Portuguese section could be:
-
-Portuguese
-correct: Correto!/Ótimo!/Fixe!
-incorrect: Incorreto./Opa./Não.
-try: Tente
+> Portuguese
+> correct: Correto!/Ótimo!/Fixe!
+> incorrect: Incorreto./Opa./Não.
+> try: Tente
 3. Include three blank lines after the header information for each language section
 4. Within each language section, separate each verb section (e.g. all the conjugations of 'querer')
    with two blank lines.
