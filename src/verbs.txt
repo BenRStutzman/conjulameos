@@ -7,10 +7,10 @@ try: Tente
 querer
 
 particípio
-  querido
+* querido
 
 gerúndio
-  querendo
+* querendo
 
 presente
 eu	quero
@@ -98,8 +98,8 @@ eles/elas/vocês quererem
 
 poder
 
-particípio
-  podido
+* particípio
+* podido
 
 gerúndio
   podendo
@@ -191,10 +191,10 @@ eles/elas/vocês poderem
 ser
 
 particípio
-  sido
+* sido
 
 gerúndio
-  sendo
+* sendo
 
 presente
 eu	sou
@@ -283,10 +283,10 @@ eles/elas/vocês serem
 estar
 
 particípio
-  estado
+* estado
 
 gerúndio
-  estando
+* estando
 
 presente
 eu	estou
@@ -375,10 +375,10 @@ eles/elas/vocês estarem
 ter
 
 particípio
-  tido
+* tido
 
 gerúndio
-  tendo
+* tendo
 
 presente
 eu	tenho
@@ -467,10 +467,10 @@ eles/elas/vocês terem
 pôr
 
 particípio
-  posto
+* posto
 
 gerúndio
-  pondo
+* pondo
 
 presente
 eu	ponho
@@ -559,10 +559,10 @@ eles/elas/vocês porem
 dizer
 
 particípio
-  dito
+* dito
 
 gerúndio
-  dizendo
+* dizendo
 
 presente
 eu	digo
@@ -651,10 +651,10 @@ eles/elas/vocês dizerem
 ler
 
 particípio
-  lido
+* lido
 
 gerúndio
-  lendo
+* lendo
 
 presente
 eu	leio
@@ -743,10 +743,10 @@ eles/elas/vocês lerem
 dar
 
 particípio
-  dado
+* dado
 
 gerúndio
-  dando
+* dando
 
 presente
 eu	dou
@@ -835,10 +835,10 @@ eles/elas/vocês darem
 ver
 
 particípio
-  visto
+* visto
 
 gerúndio
-  vendo
+* vendo
 
 presente
 eu	vejo
@@ -927,10 +927,10 @@ eles/elas/vocês verem
 vir
 
 particípio
-  vindo
+* vindo
 
 gerúndio
-  vindo
+* vindo
 
 presente
 eu	venho
@@ -1019,10 +1019,10 @@ eles/elas/vocês virem
 sair
 
 particípio
-  saído
+* saído
 
 gerúndio
-  saindo
+* saindo
 
 presente
 eu	saio
@@ -1112,10 +1112,10 @@ eles/elas/vocês sairem
 fazer
 
 particípio
-  feito
+* feito
 
 gerúndio
-  fazendo
+* fazendo
 
 presente
 eu	faço
@@ -1204,10 +1204,10 @@ eles/elas/vocês fazerem
 ir
 
 particípio
-  ido
+* ido
 
 gerúndio
-  indo
+* indo
 
 presente
 eu	vou
@@ -1296,10 +1296,10 @@ eles/elas/vocês irem
 haver
 
 particípio
-  havido
+* havido
 
 gerúndio
-  havendo
+* havendo
 
 presente
 eu	hei
@@ -1388,10 +1388,10 @@ eles/elas/vocês haverem
 saber
 
 particípio
-  sabido
+* sabido
 
 gerúndio
-  sabendo
+* sabendo
 
 presente
 eu	sei
@@ -1488,10 +1488,10 @@ try: Prueba
 querer
 
 participio
-  querido
+* querido
 
 gerundio
-  queriendo
+* queriendo
 
 presente
 yo	quiero
@@ -1505,22 +1505,28 @@ ellos/ellas/ustedes	quieren
 
 English
 correct: Correct!/Great!/Cool!
-incorrect: Incorrecto./Ups./No.
+incorrect: Incorrect./Oops./Nope.
 try: Try
 
 
 to want
 
 participle
-  wanted
+* wanted
 
 gerund
-  wanting
+* wanting
 
 present
 I	want
 you	want
 he/she/it	wants
 we	want
-you	want
 they	want
+
+present perfect progressive
+I have been wanting
+you have been wanting
+he/she/it has been wanting
+we have been wanting
+they have been wanting

@@ -63,45 +63,45 @@ class App extends React.Component {
     let pronouns;
     let pronounConjugationPairs;
     let conjugations;
-    fetch(verbsFile)
-      .then(result => result.text())
-      .then(text => {
 
-        const languageSets = text.trim().split(/\n\s*\n\s*\n\s*\n/);
-        languageSets.forEach(languageSet => {
-          [info, ...verbSets] = languageSet.split(/\n\s*\n\s*\n/);
-          [language, correctMessages, incorrectMessages, tryMessage] = info.split('\n');
-          languages[language] = {
-            correctMessages: correctMessages.split(/:\s*/)[1].split('/'),
-            incorrectMessages: incorrectMessages.split(/:\s*/)[1].split('/'),
-            tryMessage: tryMessage.split(/:\s*/)[1],
-            problems: []
-          };
-          verbSets.forEach(verbSet => {
-            [verb, ...tenseSets] = verbSet.split(/\n\s*\n/);
-            tenseSets.forEach(tenseSet => {
-              [tense, ...pronounConjugationPairs] = tenseSet.split(/\n/);
-              pronounConjugationPairs.forEach(pronounConjugationPair => {
-                [pronouns, conjugations] = pronounConjugationPair.split(/\s+/);
-                pronouns.split('/').forEach(pronoun => {
-                  languages[language].problems.push({
-                    question: {
-                      tense: tense,
-                      pronoun: pronoun,
-                      verb: verb
-                    },
-                    answers: conjugations.split('/')
-                  });
-                });
+    var text = await fetch(verbsFile)
+      .then(result => result.text());
+
+    const languageSets = text.trim().split(/\s*\n\s*\n\s*\n\s*\n\s*/);
+    languageSets.forEach(languageSet => {
+      [info, ...verbSets] = languageSet.split(/\s*\n\s*\n\s*\n\s*/);
+      [language, correctMessages, incorrectMessages, tryMessage] = info.split(/\s*\n\s*/);
+      languages[language] = {
+        correctMessages: correctMessages.split(/:\s*/)[1].split('/'),
+        incorrectMessages: incorrectMessages.split(/:\s*/)[1].split('/'),
+        tryMessage: tryMessage.split(/:\s*/)[1],
+        problems: []
+      };
+      verbSets.forEach(verbSet => {
+        [verb, ...tenseSets] = verbSet.split(/\s*\n\s*\n\s*/);
+        tenseSets.forEach(tenseSet => {
+          [tense, ...pronounConjugationPairs] = tenseSet.split(/\s*\n\s*/);
+          pronounConjugationPairs.forEach(pronounConjugationPair => {
+            [pronouns, ...conjugations] = pronounConjugationPair.split(/\s+/);
+            conjugations = conjugations.join(' ');
+            pronouns.split('/').forEach(pronoun => {
+              languages[language].problems.push({
+                question: {
+                  tense: tense,
+                  pronoun: pronoun,
+                  verb: verb
+                },
+                answers: conjugations.split('/')
               });
             });
           });
         });
-        this.setState((state) => Object.assign({}, state, {
-          phase: 'chooseLanguage',
-          languages: languages
-        }));
       });
+    });
+    this.setState((state) => Object.assign({}, state, {
+      phase: 'chooseLanguage',
+      languages: languages
+    }));
   }
 
   getRandomProblem(problems = null) {
@@ -150,7 +150,7 @@ class App extends React.Component {
     clearTimeout(this.state.correctMessageTimeoutId);
     const correctMessageTimeoutId = setTimeout(this.clearCorrectMessage,
       1000 * correctMessageDisplayTimeSeconds)
-    const isCorrect = this.state.currentProblem.answers.includes(this.state.input);
+    const isCorrect = this.state.currentProblem.answers.includes(this.state.input.trim().toLowerCase());
 
     const newState = Object.assign({}, this.state, {
       numberOfProblems: this.state.numberOfProblems + 1,
@@ -230,19 +230,20 @@ class App extends React.Component {
         const score = this.state.numberOfProblems ?
           `${this.state.numberCorrect}/${this.state.numberOfProblems} (${accuracy}%)` : '';
         const question = this.state.currentProblem.question;
+        const pronounDisplay = question.pronoun === '*' ? '' : `${question.pronoun} `;
         content = (
-          <div>
-            <div id="container">
-              <h2><span className="light-font">{question.tense} {question.pronoun} </span>
+          <div id="game-box">
+            <div>
+              <h2 className="light-font">{question.tense}</h2>
+              <h2><span className="light-font">{pronounDisplay}</span>
                 <span className="extra-bold-font">{question.verb}</span></h2>
-              <InputBox value={this.props.input}
-                handleChange={(event) => this.updateInput(event)}
-                handleKeyPress={(event) => this.handleKeyPress(event)}/>
-              <h2 className="correct-message" id={correctMessageId}>
-                {this.state.correctMessage.message}</h2>
-              <h2>{score}</h2>
             </div>
-            <button id="restart-button" onClick={this.restart}>Restart</button>
+            <InputBox value={this.props.input}
+              handleChange={(event) => this.updateInput(event)}
+              handleKeyPress={(event) => this.handleKeyPress(event)}/>
+            <h2 className="correct-message" id={correctMessageId}>
+              {this.state.correctMessage.message}</h2>
+            <h2>{score}</h2>
           </div>
         );
         break;
@@ -250,9 +251,11 @@ class App extends React.Component {
         break;
     }
     return(
-      <div>
-        <div>{content}</div>
+      <div id="container">
+        {content}
         <h1 id="conjulameos">Conjulameos</h1>
+        {this.state.phase === 'play' ?
+          <button id="restart-button" onClick={this.restart}>Restart</button> : ''}
       </div>
     );
   }

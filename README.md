@@ -37,8 +37,7 @@ To add verbs, edit `src/verbs.txt` and then re-build the program with `npm run b
    with a forward slash (e.g. 'ele/ela/você quer').
 9. For conjugations with multiple correct answers, separate each conjugation
    with a forward slash (e.g. 'tu diz/dize').
-10. For conjugations that apply to all pronouns, include at least one space
-   before the conjugation (e.g. ' querido' for particípio).
+10. For conjugations that are used with all pronouns, put an asterisk where the pronoun would usually go (e.g. '* querido' for particípio).
 
 ## Sound sources
 - Correct: https://freesound.org/people/StavSounds/sounds/546082/
