@@ -24,7 +24,7 @@ To add verbs, edit `src/verbs.txt` and then re-build the program with `npm run b
       > correct: Correto!/Ótimo!/Fixe!<br>
       > incorrect: Incorreto./Opa./Não.<br>
       > try: Tente
-3. Include three blank lines after the above header information for each language section
+3. Include three blank lines after the above header information for each language section.
 4. Within each language section, separate each verb section (e.g. all the conjugations of 'querer')
    with two blank lines.
 5. Within each verb section, separate each tense section (e.g. all the
@@ -38,7 +38,7 @@ To add verbs, edit `src/verbs.txt` and then re-build the program with `npm run b
 9. For conjugations with multiple correct answers, separate each conjugation
    with a forward slash (e.g. 'tu diz/dize').
 10. For conjugations that apply to all pronouns, include at least one space
-   before the conjugation (e.g. '  querido' for particípio).
+   before the conjugation (e.g. ' querido' for particípio).
 
 ## Sound sources
 - Correct: https://freesound.org/people/StavSounds/sounds/546082/
