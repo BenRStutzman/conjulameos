@@ -19,11 +19,11 @@ To add verbs, edit `src/verbs.txt` and then re-build the program with `npm run b
     2. The options for messages to display when the player answers correctly.
     3. The options for messages to display when the player answers incorrectly.
     4. The word for "try" in that language, to be used when the player answers incorrectly three times in a row and gets prompted with the correct answer
-    - For example, the first four lines of the Portuguese section could be:
-    > Portuguese
-    > correct: Correto!/Ótimo!/Fixe!
-    > incorrect: Incorreto./Opa./Não.
-    > try: Tente
+<br>For example, the first four lines of the Portuguese section could be:
+> Portuguese<br>
+> correct: Correto!/Ótimo!/Fixe!<br>
+> incorrect: Incorreto./Opa./Não.<br>
+> try: Tente
 3. Include three blank lines after the header information for each language section
 4. Within each language section, separate each verb section (e.g. all the conjugations of 'querer')
    with two blank lines.
