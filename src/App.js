@@ -9,7 +9,7 @@ const incorrectAnswerRetryInterval = 5;
 const correctMessageDisplayTimeSeconds = 2;
 
 const InputBox = (props) => (
-  <input id="input" value={props.value} autoComplete="off" autoFocus
+  <input id="input" value={props.value} autoComplete="off" spellcheck="false" autoFocus
     onChange={props.handleChange}
     onKeyPress={props.handleKeyPress}/>
 );
@@ -82,8 +82,13 @@ class App extends React.Component {
         tenseSets.forEach(tenseSet => {
           [tense, ...pronounConjugationPairs] = tenseSet.split(/\s*\n\s*/);
           pronounConjugationPairs.forEach(pronounConjugationPair => {
-            [pronouns, ...conjugations] = pronounConjugationPair.split(/\s+/);
-            conjugations = conjugations.join(' ');
+            if (pronounConjugationPair[0] === '[') {
+              [pronouns, conjugations] = pronounConjugationPair.split(/\]\s*/);
+              pronouns = pronouns.slice(1,);
+            } else {
+              [pronouns, ...conjugations] = pronounConjugationPair.split(/\s+/);
+              conjugations = conjugations.join(' ');
+            }
             pronouns.split('/').forEach(pronoun => {
               languages[language].problems.push({
                 question: {
@@ -136,10 +141,11 @@ class App extends React.Component {
     for (let i = 0; i < incorrectAnswerRetryInterval; i++) {
       problemQueue.push(this.getRandomProblem(languageInfo.problems));
     }
+    const currentProblem = problemQueue.shift();
     this.setState((state) => Object.assign({}, state, languageInfo, {
       phase: 'play',
       problemQueue: problemQueue,
-      currentProblem: this.getRandomProblem(languageInfo.problems)
+      currentProblem: currentProblem
     }));
   }
 

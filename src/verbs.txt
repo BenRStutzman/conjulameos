@@ -16,7 +16,7 @@ presente
 eu	quero
 tu	queres
 ele/ela/você quer
-nós	queremoss
+nós	queremos
 vós	quereis
 eles/elas/vocês querem
 
@@ -98,11 +98,11 @@ eles/elas/vocês quererem
 
 poder
 
-* particípio
+particípio
 * podido
 
 gerúndio
-  podendo
+* podendo
 
 presente
 eu	posso
@@ -797,12 +797,12 @@ vós	désseis
 eles/elas/vocês dessem
 
 futuro do subjuntivo
-eu	dar
-tu	dares
-ele/ela/você dar
-nós	darmos
-vós	dardes
-eles/elas/vocês darem
+eu	der
+tu	deres
+ele/ela/você der
+nós	dermos
+vós	derdes
+eles/elas/vocês derem
 
 condicional
 eu	daria
@@ -1056,8 +1056,7 @@ nós	saímos
 vós	saístes
 eles/elas/vocês saíram
 
-presente
-do subjuntivo
+presente do subjuntivo
 eu	saia
 tu	saias
 ele/ela/você saia
@@ -1102,11 +1101,11 @@ vós saiais
 
 infinitivo pessoal
 eu sair
-tu saires
+tu saíres
 ele/ela/você sair
 nós sairmos
 vós sairdes
-eles/elas/vocês sairem
+eles/elas/vocês saírem
 
 
 fazer
@@ -1477,6 +1476,917 @@ vós saberdes
 eles/elas/vocês saberem
 
 
+ficar
+
+particípio
+* ficado
+
+gerúndio
+* ficando
+
+presente
+eu	fico
+tu	ficas
+ele/ela/você fica
+nós	ficamos
+vós	ficais
+eles/elas/vocês ficam
+
+imperfeito
+eu	ficava
+tu	ficavas
+ele/ela/você ficava
+nós	ficávamos
+vós	ficáveis
+eles/elas/vocês ficavam
+
+futuro
+eu	ficarei
+tu	ficarás
+ele/ela/você ficará
+nós	ficaremos
+vós	ficareis
+eles/elas/vocês ficarão
+
+pretérito
+eu	fiquei
+tu	ficaste
+ele/ela/você ficou
+nós	ficámos
+vós	ficastes
+eles/elas/vocês ficaram
+
+presente do subjuntivo
+eu	fique
+tu	fiques
+ele/ela/você fique
+nós	fiquemos
+vós	fiqueis
+eles/elas/vocês fiquem
+
+imperfeito do subjuntivo
+eu	ficasse
+tu	ficasses
+ele/ela/você ficasse
+nós	ficássemos
+vós	ficásseis
+eles/elas/vocês ficassem
+
+futuro do subjuntivo
+eu	ficar
+tu	ficares
+ele/ela/você ficar
+nós	ficarmos
+vós	ficardes
+eles/elas/vocês ficarem
+
+condicional
+eu	ficaria
+tu	ficarias
+ele/ela/você ficaria
+nós	ficaríamos
+vós	ficaríeis
+eles/elas/vocês ficariam
+
+imperativo
+tu	fica
+ele/ela/você fique
+nós	fiquemos
+vós	ficai
+eles/elas/vocês fiquem
+
+infinitivo negativo
+tu	fiques
+vós	fiqueis
+
+infinito pessoal
+eu	ficar
+tu	ficares
+ele/ela/você ficar
+nós	ficarmos
+vós	ficardes
+eles/elas/vocês ficarem
+
+
+dever
+
+particípio
+* devido
+
+gerúndio
+* devendo
+
+presente
+eu	devo
+tu	deves
+ele/ela/você deve
+nós	devemos
+vós	deveis
+eles/elas/vocês devem
+
+imperfeito
+eu	devia
+tu	devias
+ele/ela/você devia
+nós	devíamos
+vós	devíeis
+eles/elas/vocês deviam
+
+futuro
+eu	deverei
+tu	deverás
+ele/ela/você deverá
+nós	deveremos
+vós	devereis
+eles/elas/vocês deverão
+
+pretérito
+eu	devi
+tu	deveste
+ele/ela/você deveu
+nós	devemos
+vós	devestes
+eles/elas/vocês deveram
+
+presente do subjuntivo
+eu	deva
+tu	devas
+ele/ela/você deva
+nós	devamos
+vós	devais
+eles/elas/vocês devam
+
+imperfeito do subjuntivo
+eu	devesse
+tu	devesses
+ele/ela/você devesse
+nós	devêssemos
+vós	devêsseis
+eles/elas/vocês devessem
+
+futuro do subjuntivo
+eu	dever
+tu	deveres
+ele/ela/você dever
+nós	devermos
+vós	deverdes
+eles/elas/vocês deverem
+
+condicional
+eu	deveria
+tu	deverias
+ele/ela/você deveria
+nós	deveríamos
+vós	deveríeis
+eles/elas/vocês deveriam
+
+imperativo
+tu	deve
+ele/ela/você deva
+nós	devamos
+vós	devei
+eles/elas/vocês devam
+
+imperativo negativo
+tu devas
+vós devais
+
+infinitivo pessoal
+eu dever
+tu deveres
+ele/ela/você dever
+nós devermos
+vós deverdes
+eles/elas/vocês deverem
+
+
+passar
+
+particípio
+* passado
+
+gerúndio
+* passando
+
+presente
+eu	passo
+tu	passas
+ele/ela/você passa
+nós	passamos
+vós	passais
+eles/elas/vocês passam
+
+imperfeito
+eu	passava
+tu	passavas
+ele/ela/você passava
+nós	passávamos
+vós	passáveis
+eles/elas/vocês passavam
+
+futuro
+eu	passarei
+tu	passarás
+ele/ela/você passará
+nós	passaremos
+vós	passareis
+eles/elas/vocês passarão
+
+pretérito
+eu	passei
+tu	passaste
+ele/ela/você passou
+nós	passámos
+vós	passastes
+eles/elas/vocês passaram
+
+presente do subjuntivo
+eu	passe
+tu	passes
+ele/ela/você passe
+nós	passemos
+vós	passeis
+eles/elas/vocês passem
+
+imperfeito do subjuntivo
+eu	passasse
+tu	passasses
+ele/ela/você passasse
+nós	passássemos
+vós	passásseis
+eles/elas/vocês passassem
+
+futuro do subjuntivo
+eu	passar
+tu	passares
+ele/ela/você passar
+nós	passarmos
+vós	passardes
+eles/elas/vocês passarem
+
+condicional
+eu	passaria
+tu	passarias
+ele/ela/você passaria
+nós	passaríamos
+vós	passaríeis
+eles/elas/vocês passariam
+
+imperativo
+tu	passa
+ele/ela/você passe
+nós	passemos
+vós	passai
+eles/elas/vocês passem
+
+imperativo negativo
+tu passes
+vós passeis
+
+infinitivo pessoal
+eu passar
+tu passares
+ele/ela/você passar
+nós passarmos
+vós passardes
+eles/elas/vocês passarem
+
+
+chegar
+
+particípio
+* chegado
+
+gerúndio
+* chegando
+
+presente
+eu	chego
+tu	chegas
+ele/ela/você chega
+nós	chegamos
+vós	chegais
+eles/elas/vocês chegam
+
+imperfeito
+eu	chegava
+tu	chegavas
+ele/ela/você chegava
+nós	chegávamos
+vós	chegáveis
+eles/elas/vocês chegavam
+
+futuro
+eu	chegarei
+tu	chegarás
+ele/ela/você chegará
+nós	chegaremos
+vós	chegareis
+eles/elas/vocês chegarão
+
+pretérito
+eu	cheguei
+tu	chegaste
+ele/ela/você chegou
+nós	chegámos
+vós	chegastes
+eles/elas/vocês chegaram
+
+presente do subjuntivo
+eu	chegue
+tu	chegues
+ele/ela/você chegue
+nós	cheguemos
+vós	chegueis
+eles/elas/vocês cheguem
+
+imperfeito do subjuntivo
+eu	chegasse
+tu	chegasses
+ele/ela/você chegasse
+nós	chegássemos
+vós	chegásseis
+eles/elas/vocês chegassem
+
+futuro do subjuntivo
+eu	chegar
+tu	chegares
+ele/ela/você chegar
+nós	chegarmos
+vós	chegardes
+eles/elas/vocês chegarem
+
+condicional
+eu	chegaria
+tu	chegarias
+ele/ela/você chegaria
+nós	chegaríamos
+vós	chegaríeis
+eles/elas/vocês chegariam
+
+imperativo
+tu	chega
+ele/ela/você chegue
+nós	cheguemos
+vós	chegai
+eles/elas/vocês cheguem
+
+imperativo negativo
+tu chegues
+vós chegueis
+
+infinitivo pessoal
+eu chegar
+tu chegares
+ele/ela/você chegar
+nós chegarmos
+vós chegardes
+eles/elas/vocês chegarem
+
+
+falar
+
+particípo
+* falado
+
+gerúndio
+* falando
+
+presente
+eu	falo
+tu	falas
+ele/ela/você fala
+nós	falamos
+vós	falais
+eles/elas/vocês falam
+
+futuro
+eu	falarei
+tu	falarás
+ele/ela/você falará
+nós	falaremos
+vós	falareis
+eles/elas/vocês falarão
+
+pretérito
+eu	falei
+tu	falaste
+ele/ela/você falou
+nós	falámos
+vós	falastes
+eles/elas/vocês falaram
+
+presente do subjuntivo
+eu	fale
+tu	fales
+ele/ela/você fale
+nós	falemos
+vós	faleis
+eles/elas/vocês falem
+
+imperfeito do subjuntivo
+eu	falasse
+tu	falasses
+ele/ela/você falasse
+nós	falássemos
+vós	falásseis
+eles/elas/vocês falassem
+
+futuro do subjuntivo
+eu	falar
+tu	falares
+ele/ela/você falar
+nós	falarmos
+vós	falardes
+eles/elas/vocês falarem
+
+condicional
+eu	falaria
+tu	falarias
+ele/ela/você falaria
+nós	falaríamos
+vós	falaríeis
+eles/elas/vocês falariam
+
+imperativo
+tu	fala
+ele/ela/você fale
+nós	falemos
+vós	falai
+eles/elas/vocês falem
+
+imperativo negativo
+tu fales
+vós faleis
+
+infinitivo pessoal
+eu falar
+tu falares
+ele/ela/você falar
+nós falarmos
+vós falardes
+eles/elas/vocês falarem
+
+
+deixar
+
+particípio
+* deixado
+
+gerúndio
+* deixando
+
+presente
+eu	deixo
+tu	deixas
+ele/ela/você deixa
+nós	deixamos
+vós	deixais
+eles/elas/vocês deixam
+
+imperfeito
+eu	deixava
+tu	deixavas
+ele/ela/você deixava
+nós	deixávamos
+vós	deixáveis
+eles/elas/vocês deixavam
+
+futuro
+eu	deixarei
+tu	deixarás
+ele/ela/você deixará
+nós	deixaremos
+vós	deixareis
+eles/elas/vocês deixarão
+
+pretérito
+eu	deixei
+tu	deixaste
+ele/ela/você deixou
+nós	deixámos
+vós	deixastes
+eles/elas/vocês deixaram
+
+presente do subjuntivo
+eu	deixe
+tu	deixes
+ele/ela/você deixe
+nós	deixemos
+vós	deixeis
+eles/elas/vocês deixem
+
+imperfeito do subjuntivo
+eu	deixasse
+tu	deixasses
+ele/ela/você deixasse
+nós	deixássemos
+vós	deixásseis
+eles/elas/vocês deixassem
+
+futuro do subjuntivo
+eu	deixar
+tu	deixares
+ele/ela/você deixar
+nós	deixarmos
+vós	deixardes
+eles/elas/vocês deixarem
+
+condicional
+eu	deixaria
+tu	deixarias
+ele/ela/você deixaria
+nós	deixaríamos
+vós	deixaríeis
+eles/elas/vocês deixariam
+
+imperativo
+tu	deixa
+ele/ela/você deixe
+nós	deixemos
+vós	deixai
+eles/elas/vocês deixem
+
+imperativo negativo
+tu deixes
+vós deixeis
+
+infinitivo pessoal
+eu deixar
+tu deixares
+ele/ela/você deixar
+nós deixarmos
+vós deixardes
+eles/elas/vocês deixarem
+
+
+encontrar
+
+particípio
+* encontrado
+
+gerúndio
+* encontrando
+
+presente
+eu encontro
+tu encontras
+ele/ela/você encontra
+nós encontramos
+vós encontrais
+eles/elas/vocês encontram
+
+pretérito
+eu encontrei
+tu encontraste
+ele/ela/você encontrou
+nós encontrámos
+vós encontrastes
+eles/elas/vocês encontraram
+
+imperfeito
+eu encontrava
+tu encontravas
+ele/ela/você encontrava
+nós encontrávamos
+vós encontráveis
+eles/elas/vocês encontravam
+
+futuro
+eu encontrarei
+tu encontrarás
+ele/ela/você encontrará
+nós encontraremos
+vós encontrareis
+eles/elas/vocês encontrarão
+
+condicional
+eu encontraria
+tu encontrarias
+ele/ela/você encontraria
+nós encontraríamos
+vós encontraríeis
+eles/elas/vocês encontrariam
+
+presente do subjuntivo
+eu encontre
+tu encontres
+ele/ela/você encontre
+nós encontremos
+vós encontreis
+eles/elas/vocês encontrem
+
+imperfeito do subjuntivo
+eu encontrasse
+tu encontrasses
+ele/ela/você encontrasse
+nós encontrássemos
+vós encontrásseis
+eles/elas/vocês encontrassem
+
+futuro do subjuntivo
+eu encontrar
+tu encontrares
+ele/ela/você encontrar
+nós encontrarmos
+vós encontrardes
+eles/elas/vocês encontrarem
+
+imperativo
+tu encontra
+ele/ela/você encontre
+nós encontremos
+vós encontrai
+eles/elas/vocês encontrem
+
+imperativo negativo
+tu encontres
+vós encontreis
+
+infinitivo pessoal
+eu encontrar
+tu encontrares
+ele/ela/você encontrar
+nós encontrarmos
+vós encontrardes
+eles/elas/vocês encontrarem
+
+
+levar
+
+particípio
+* levado
+
+gerúndio
+* levando
+
+presente
+eu levo
+tu levas
+ele/ela/você leva
+nós levamos
+vós levais
+eles/elas/vocês levam
+
+pretérito
+eu levei
+tu levaste
+ele/ela/você levou
+nós levámos
+vós levastes
+eles/elas/vocês levaram
+
+imperfeito
+eu levava
+tu levavas
+ele/ela/você levava
+nós levávamos
+vós leváveis
+eles/elas/vocês levavam
+
+futuro
+eu levarei
+tu levarás
+ele/ela/você levará
+nós levaremos
+vós levareis
+eles/elas/vocês levarão
+
+presente do subjuntivo
+eu leve
+tu leves
+ele/ela/você leve
+nós levemos
+vós leveis
+eles/elas/vocês levem
+
+imperfeito do subjuntivo
+eu levasse
+tu levasses
+ele/ela/você levasse
+nós levássemos
+vós levásseis
+eles/elas/vocês levassem
+
+futuro do subjuntivo
+eu levar
+tu levares
+ele/ela/você levar
+nós levarmos
+vós levardes
+eles/elas/vocês levarem
+
+condicional
+eu levaria
+tu levarias
+ele/ela/você levaria
+nós levaríamos
+vós levaríeis
+eles/elas/vocês levariam
+
+infinitivo pessoal
+eu levar
+tu levares
+ele/ela/você levar
+nós levarmos
+vós levardes
+eles/elas/vocês levarem
+
+imperativo
+tu leva
+ele/ela/você leve
+nós levemos
+vós levai
+eles/elas/vocês levem
+
+imperativo negativo
+tu leves
+vós leveis
+
+
+começar
+
+particípio
+* começado
+
+gerúndio
+* começando
+
+presente
+eu começo
+tu começas
+ele/ela/você começa
+nós começamos
+vós começais
+eles/elas/vocês começam
+
+pretérito
+eu começei
+tu começaste
+ele/ela/você começou
+nós começámos
+vós começastes
+eles/elas/vocês começaram
+
+imperfeito
+eu começava
+tu começavas
+ele/ela/você começava
+nós começávamos
+vós começáveis
+eles/elas/vocês começavam
+
+futuro
+eu começarei
+tu começarás
+ele/ela/você começará
+nós começaremos
+vós começareis
+eles/elas/vocês começarão
+
+presente do subjuntivo
+eu comece
+tu comeces
+ele/ela/você comece
+nós comecemos
+vós comeceis
+eles/elas/vocês comecem
+
+imperfeito do subjuntivo
+eu começasse
+tu comçasses
+ele/ela/você começasse
+nós começássemos
+vós começásseis
+eles/elas/vocês começassem
+
+futuro do subjuntivo
+eu começar
+tu começares
+ele/ela/você começar
+nós começarmos
+vós começardes
+eles/elas/vocês começarem
+
+condicional
+eu começaria
+tu começarias
+ele/ela/você começaria
+nós começaríamos
+vós começaríeis
+eles/elas/vocês começariam
+
+infinitivo pessoal
+eu começar
+tu começares
+ele/ela/você começar
+nós começarmos
+vós começardes
+eles/elas/vocês começarem
+
+imperativo
+tu começa
+ele/ela/você comece
+nós comecemos
+vós começai
+eles/elas/vocês comecem
+
+infinitivo negativo
+tu comeces
+vós comeceis
+
+
+partir
+
+particípio
+* partido
+
+gerúndio
+* partindo
+
+presente
+eu parto
+tu partes
+ele/ela/você parte
+nós partimos
+vós partis
+eles/elas/vocês partem
+
+pretétiro
+eu parti
+tu partiste
+ele/ela/você partiu
+nós partimos
+vós partistes
+eles/elas/vocês partiram
+
+imperfeito
+eu partia
+tu partias
+ele/ela/você partia
+nós partíamos
+vós partíeis
+eles/elas/vocês partiam
+
+futuro
+eu partirei
+tu partirás
+ele/ela/você partirá
+nós partiremos
+vós partireis
+eles/elas/vocês partirão
+
+presente do subjuntivo
+eu parta
+tu partas
+ele/ela/você parta
+nós partamos
+vós partais
+eles/elas/vocês partam
+
+imperfeito do subjuntivo
+eu partisse
+tu partisses
+ele/ela/você partisse
+nós partíssemos
+vós partísseis
+eles/elas/vocês partissem
+
+futuro do subjuntivo
+eu partir
+tu partires
+ele/ela/você partir
+nós partirmos
+vós partirdes
+eles/elas/vocês partirem
+
+condicional
+eu partiria
+tu partirias
+ele/ela/você partiria
+nós partiríamos
+vós partiríeis
+eles/elas/vocês partiriam
+
+infinitivo pessoal
+eu partir
+tu partires
+ele/ela/você partir
+nós partirmos
+vós partirdes
+eles/elas/vocês partirem
+
+imperativo
+tu parte
+ele/ela/você parta
+nós partamos
+vós parti
+eles/elas/vocês partam
+
+imperativo negativo
+tu partas
+vós partais
+
 
 
 Spanish
@@ -1530,3 +2440,36 @@ you have been wanting
 he/she/it has been wanting
 we have been wanting
 they have been wanting
+
+
+to conjugate
+
+participle
+* conjugated
+
+gerund
+* conjugating
+
+present
+I conjugate
+you conjugate
+he/she/it conjugates
+we conjugate
+they conjugate
+
+future perfect progressive
+Logolas will have been conjugating
+Gimli will have been conjugating
+[Donald J. Trump] will have been conjugating
+
+
+to self-flagellate
+
+participle
+* self-flagellated
+
+gerund
+* self-flagellating
+
+yellow
+[That one Dan Brown character] wanted to releive themself of self-flagellation

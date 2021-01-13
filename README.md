@@ -38,6 +38,7 @@ To add verbs, edit `src/verbs.txt` and then re-build the program with `npm run b
 9. For conjugations with multiple correct answers, separate each conjugation
    with a forward slash (e.g. 'tu diz/dize').
 10. For conjugations that are used with all pronouns, put an asterisk where the pronoun would usually go (e.g. '* querido' for particípio).
+11. If you want to use subjects with spaces in the instead of pronouns, surround the subject with square brackets (e.g. '[Dr. Seuss] rhymed').
 
 ## Sound sources
 - Correct: https://freesound.org/people/StavSounds/sounds/546082/
